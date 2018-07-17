@@ -1,0 +1,52 @@
+.screen {
+    border: 1px solid #727171;
+    height: 170px;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    overflow: scroll;
+}
+
+.btns {
+    margin: 0 auto;
+    width: 350px;
+    height: 280px;
+    border: 1px solid #727171;
+    background-color: #d3d3d3;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border: none;
+    font-size: 20px;
+    display: inline-block;
+    background-color: white;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+}
+
+button:active {
+    transform: translateY(4px);
+    color: white;
+}
+
+.wider {
+    width: 140px;
+}
+
+.grey {
+    background-color: #d3d3d3;
+}
+
+.grey:hover {
+    background-color: white;
+}
