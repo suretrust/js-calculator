@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS calculator</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="screen">
+                <div class="disp" id="disp"></div><br />
+                <div class="calc" id="calc"></div>
+            </div>
+            <div class="btns">
+                <div>
+                    <button value="7">7</button><button value="8">8</button><button value="9">9</button><button data-action="divide" class="grey" value="/">&#247</button><button data-action="delete" class="grey">DEL</button>
+                </div>
+                <div>
+                    <button value="4">4</button><button value="5">5</button><button value="6">6</button><button data-action="multiply" class="grey" value="*">x</button><button data-action="clear" class="grey" value="C">C</button>
+                </div>
+                <div>
+                    <button value="1">1</button><button value="2">2</button><button value="3">3</button><button data-action="substract" class="grey" value="-">-</button>
+                </div>
+                <div>
+                    <button data-action="decimal">.</button><button value="0" class="wider">0</button><button data-action="add" class="grey" value="+">+</button><button data-action="equals" class="grey">=</button>
+                </div>
+            </div>
+        </div>
+       
+        <script src="myScript.js"></script>
+    </body>
+</html>
