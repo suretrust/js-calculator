@@ -1,6 +1,6 @@
 # JS Calculator
 
-This is a vanilla Javascript calculator.
+This is a vanilla Javascript calculator. It is a clone of One plus 3T's calculator app.
 
 ## Technologies Used
 - HTML
